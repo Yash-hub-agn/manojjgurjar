@@ -145,7 +145,7 @@ $(document).ready(function() {
   $('.image3').on('click', function() {
     $('#template').removeClass('hide');
     $('#Collection').addClass('hide');
-    setImagePath('../manoj/architeure/');
+    setImagePath('./architeure/');
     updateDetails('ARCHITEURE', 'lorem ipsum dolor sit amet..','Collection','./Architeure.html');
 
     // Use a while loop to continuously update the image and rotate
@@ -166,7 +166,7 @@ $(document).ready(function() {
   $('.image2').on('click', function() {
     $('#template').removeClass('hide');
     $('#Collection').addClass('hide');
-    setImagePath('../manoj/hills and mountains/');
+    setImagePath('./hills and mountains/');
     updateDetails('MOUNTAINS', 'lorem ipsum dolor sit amet..','Collection','./Mountains.html');
 
     // Use a while loop to continuously update the image and rotate
@@ -187,7 +187,7 @@ $(document).ready(function() {
   $('.image1').on('click', function() {
     $('#template').removeClass('hide');
     $('#Collection').addClass('hide');
-    setImagePath('../manoj/dessert/');
+    setImagePath('./dessert/');
     updateDetails('DESERT', 'lorem ipsum dolor sit amet..','Collection','Desert.html');
 
     // Use a while loop to continuously update the image and rotate
@@ -208,7 +208,7 @@ $(document).ready(function() {
   $('.image4').on('click', function() {
     $('#template').removeClass('hide');
     $('#Collection').addClass('hide');
-    setImagePath('../manoj/nature/');
+    setImagePath('./nature/');
     updateDetails('FLOURA AND FAUNA', 'lorem ipsum dolor sit amet..','Collection','Nature.html');
 
     // Use a while loop to continuously update the image and rotate
