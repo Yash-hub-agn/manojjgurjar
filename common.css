@@ -37,6 +37,9 @@ body{
 .order-2{
   order: 2;
 }
+.gap-20{
+  gap:20px;
+}
 .cursor-pointer{
     cursor: pointer;
 }
