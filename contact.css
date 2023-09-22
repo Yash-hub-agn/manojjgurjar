@@ -1,0 +1,136 @@
+#Contact{
+    /* background-color: #1f242d;
+ */
+ background-color: white;
+}
+.container-custom{
+    width: 600px;
+    height: 550px;
+}
+.round{
+    background-color: #bdccf1;
+    width: 150px;
+    height: 150px;
+    bottom: -8%;
+    left: 13%;
+}
+.round1{
+    top: 70%;
+    left: 80%;
+    width: 250px;
+    height: 250px;
+}
+.design{
+    border-radius: 30% 70% 70% 30% / 44% 31% 69% 56%  ;
+    background-color: #8ea8e4;
+}
+.contact-content{
+    width: 50%;
+    top: 50%;
+    left: 50%;
+}
+.message{
+    font-weight: 600;
+}
+/* ############################media Query############################ */
+
+@media only screen and (max-width: 767.98px) {
+    .container-custom{
+        width: 500px;
+        height: 450px;
+    }
+    .round{
+        width: 100px;
+        height: 100px;
+        bottom: -8%;
+        left: 15%;
+    }
+    .round1{
+        top: 80%;
+        left: 90%;
+        width: 170px;
+        height: 180px;
+    }
+    .contact-content{
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 566.9px){
+    .container-custom{
+        width: 95%;
+        height: 400px;
+        overflow: hidden;
+    }
+    .design{
+        overflow: hidden;
+    }
+    .round{
+        display: none;
+        width: 100px;
+        height: 100px;
+        bottom: -8%;
+        left: 15%;
+    }
+    .round1{
+        display: none;
+        left: 90%;
+        width: 200px;
+        height: 200px;
+    }
+    .label{
+        display: none;
+    }
+    .contact-content{
+        width: 75%;
+        top: 50%;
+        left:50%;
+        overflow: hidden;
+    }
+    
+
+}
+@media (max-width:398px){
+    .container-custom{
+        width: 95%;
+        height: 350px;
+        overflow: hidden;
+    }
+    .design{
+        overflow: hidden;
+    }
+    .round{
+        display: none;
+        width: 100px;
+        height: 100px;
+        bottom: -8%;
+        left: 15%;
+    }
+    .round1{
+        display: none;
+        left: 90%;
+        width: 200px;
+        height: 200px;
+    }
+    .label{
+        display: none;
+    }
+    .contact-content{
+        width: 80%;
+        top: 50%;
+        left:50%;
+        overflow: hidden;
+    }
+    
+
+}
+
+@media (max-width: 309px){ 
+    .design{
+        display: none;
+    }
+    .contact-content{
+        width: 100%;
+    }
+}

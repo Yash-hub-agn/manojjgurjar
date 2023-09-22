@@ -1,0 +1,391 @@
+/* Extra Small (xs): Up to 575.98px
+Large (lg): 992px - 1199.98px
+Extra Large (xl): 1200px and larger */
+@media only screen and (min-width:992px) and (max-width: 1199.98px) {
+    .h1{
+      font-size: 2.3rem;
+    }
+    .h3{
+      font-size: 1rem ;
+    }
+    .para{
+      font-size: 0.9rem;
+      font-weight: 600;
+    }  
+    .h2{
+      font-size: 1.2rem;
+    }
+    /* ##############################home############################### */
+    .items4 {
+    top: 74%;
+    right: 42%;
+    }
+    .items3 {
+      top: 60%;
+      right: 49%;
+    }
+    .items2 {
+      top: 40%;
+      right: 49%;
+    }
+    .items1 {
+      top: 25%;
+      right: 42%;
+    }
+    /* ##############################about me############################### */
+    .aboutme{
+      width: 90%;
+    }
+    .aboutme img {
+        width: 30%;
+        height: max-content;
+    }
+    /* ##############################collection############################### */
+    #Collection{
+      max-height:1000px ;
+    }
+    .left-half h2 {
+        width: 75%;
+    }
+    .left-half p {
+        width: 75%;
+    }
+    .collection-info {
+        right: 2%;
+        width: 50%;
+    
+  }
+  .template-container{
+    width: 80%;
+  }
+  .aboutme-item1 p,.aboutme-item2 p{
+    width: 35%;
+  }
+}
+  /* Small (sm): 576px - 767.98px
+  Medium (md): 768px - 991.98px */
+  @media only screen and (min-width:768px) and (max-width: 991.98px) {  
+    .h1{
+      font-size: 1.8rem;
+    }
+    .h3{
+      font-size: .9rem ;
+    }
+    .para{
+      font-size: 0.9rem;
+      font-weight: 600;
+    }  
+    .h2{
+      font-size: 1.1rem;
+    }
+    /* ###########################Home######################### */
+    @keyframes social {
+      0%{    
+          right: 50%;
+          top: 25%;
+      }
+    }
+    @keyframes socialBack {
+        100%{    
+            right: 50%;
+            top: 25%;
+        }
+    }
+    .items3 {
+      top: 20%;
+      right: 78%;
+    }
+    .items4 {
+      top: 38%;
+      right: 78%;
+    }
+    .items2 {
+      top: 38%;
+      right: 20%;
+    }
+    .items1 {
+      top: 20%;
+      right: 20%;
+    }
+    /* #################################About###################### */
+    .about{
+      flex-direction: column;
+      height: max-content;
+      padding: 4rem;
+    }
+    .manoj-info{
+      order: 2;
+    }
+    .flex-basis-2{
+      width: 80%;
+    }
+    .water-flow{
+      width: fit-content;
+    }
+    .about h2{
+      width: fit-content;
+    }
+    .about p{
+      text-align: center;
+    }
+    .Collection{
+      width: fit-content;
+    }
+    /* ##############################info########################## */
+    .Intro{
+      height: fit-content;
+    }
+    .aboutme{
+      width: 100%;
+    }
+    .aboutme p{
+      width: 40%;
+    }
+    /* ##############################collection############################### */
+    #Collection{
+      max-height:950px ;
+    }
+    .left-half h2 {
+        width: 80%;
+    }
+    .left-half p {
+        width: 80%;
+    }
+    .collection-info {
+        right: 2%;
+        width: 60%;
+    
+  }
+  .template-container{
+    width: 90%;
+  }
+  }
+  @media only screen and (max-width: 767.98px) {
+    
+    .h1{
+      font-size: 1.5rem;
+    }
+    .h3{
+      font-size: .9rem ;
+    }
+    .para{
+      font-size: 1rem;
+      font-weight: 600;
+    }  
+    .h2{
+      font-size: 1rem;
+    }
+    /* ###########################Home######################### */
+    @keyframes social {
+      0%{    
+          right: 47%;
+          top: 25%;
+      }
+    }
+    @keyframes socialBack {
+        100%{    
+            right: 47%;
+            top: 25%;
+        }
+    }
+    .items3 {
+      top: 20%;
+      right: 78%;
+    }
+    .items4 {
+      top: 38%;
+      right: 78%;
+    }
+    .items2 {
+      top: 38%;
+      right: 15%;
+    }
+    .items1 {
+      top: 20%;
+      right: 15%;
+    }
+     /* #################################About###################### */
+     .about{
+      flex-direction: column;
+      height: max-content;
+      padding: 4rem 0;
+    }
+    .image-container {
+      width: 250px;
+      height: 250px;
+    }
+    .flex-basis-2{
+      width: 60%;
+    }
+    .manoj-info{
+      order: 2;
+      width: 80%;
+    }
+    .water-flow{
+      width: fit-content;
+    }
+    .about h2{
+      width: fit-content;
+    }
+    .about p{
+      text-align: center;
+      width: 100%;
+    }
+    .Collection{
+      width: 100px;
+    }
+    /* ##############################info########################## */
+    .Intro{
+      height: fit-content;
+    }
+    .aboutme-item1, .aboutme-item2{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .aboutme{
+      width: 100%;
+    }
+    .aboutme img{
+      display:none;
+    }
+    .aboutme p{
+      width: 60%;
+    }
+    /* ##############################collection############################### */
+    .Collections{
+      flex-direction: column;
+      height: fit-content;
+    }
+    .left-half,.right-half{
+      width: 90%;
+      margin: 1.5rem 0;
+      margin-top: 0;
+    }
+    .left-half h2 {
+        width: 80%;
+    }
+    .left-half p {
+        width: 80%;
+    }
+    .collection-info {
+      display: none;
+    
+  }
+  #template{
+    position: relative;
+    flex-direction: column;
+    height: max-content;
+  }
+  .template-container{
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+  }
+  .collection-gallery-font{
+    position: relative;
+    transform: translate(-50%,0%);
+    top: 0;
+    margin-bottom: 1.5rem;
+  }
+  .details-info{
+    gap: 20px;
+    width: 100%;
+    position: static;
+  }
+  .details-info img{
+    top: 0%;
+    right: 1%;
+  }
+  }
+  /* ###############################media max-width:566################## */
+  @media (max-width: 566.9px){
+    
+    .h1{
+      font-size: 1.3rem;
+    }
+    .h3{
+      font-size: .8rem ;
+    }
+    .para{
+      font-size: 0.7rem;
+      font-weight: 700;
+    }  
+    .h2{
+      font-size: .9rem;
+    }
+    /* ###########################Home######################### */
+    .items3 {
+      top: 12%;
+      right: 78%;
+    }
+    .items4 {
+      top: 35%;
+      right: 78%;
+    }
+    .items2 {
+      top: 35%;
+      right: 10%;
+    }
+    .items1 {
+      top: 12%;
+      right: 10%;
+    }
+    .image-container {
+      width: 200px;
+      height: 200px;
+    }
+    .manoj-info{
+      order: 2;
+      width: 80%;
+    }
+    .aboutme p{
+      width: 85%;
+    }
+    .Collections{
+      height: fit-content;
+    }
+    .left-half,.right-half{
+      width: 100%;
+    }
+    .left-half h2 {
+      padding: 0;
+      width: 90%;
+      padding-bottom: .5rem;
+      text-align:center ;
+    }
+    .left-half p {
+      padding: 0;
+      width: 85%;
+      text-align:center ;
+    }
+  }
+  @media (max-width: 309px){ 
+    .aboutme p{
+      width: 100%;
+    }
+    .image-container {
+      width: 150px;
+      height: 150px;
+    }
+    .flex-basis-2{
+      width: 100%;
+    }
+    .left-half,.right-half{
+      width: 100%;
+    }
+    .left-half h2 {
+      padding: 0;
+      width: 95%;
+      padding-bottom: .5rem;
+      text-align:center ;
+    }
+    .left-half p {
+      padding: 0;
+      width: 90%;
+      text-align:center ;
+    }
+    .social{
+      display: none;
+    }
+  }

@@ -1,0 +1,50 @@
+.nav-container{
+    width: 80%;
+}
+.logo{
+    width:max-content;
+    height: 100%;
+}
+.logo img{
+    width: 100px;
+}
+.bar-icons{
+    display: none;
+}
+
+
+/* Circle behind */
+li.circleBehind a:before, li.circleBehind a:after
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #0277bd;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+li.circleBehind a:after
+{
+    border-width: 2px;
+    transition: all 0.4s;
+}
+
+li.circleBehind a:hover:before
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+li.circleBehind a:hover:after
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1.3);
+}

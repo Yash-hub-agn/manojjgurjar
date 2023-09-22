@@ -1,0 +1,18 @@
+#NatureGallery{
+  background-color:  #000;
+  /* background-image: url(./image/nature-gallery-image.jpg); */
+  backdrop-filter: blur(50px);
+}
+.nature-image-container{
+  padding-bottom: 25px ;
+}
+.custom-image{
+  width: 150px;
+  height: 150px;
+  padding-top: 25px;
+}
+@media only screen and (min-width:768px) and (max-width: 991.98px) { 
+  .nature-container{
+    width: 85%;
+  }
+}
